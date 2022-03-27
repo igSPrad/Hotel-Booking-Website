@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/detail.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <title>Detail</title>
+</head>
+
+<body style="width: 100%;">
+
+
+    <div>
+        <!-- Header of the webpage -->
+        <header>
+            <div>
+                <a id="logo" href="index.html"><img src="./assests/images/logo.png" alt="logo" height="60px"
+                        width="60px"></a><br>
+                <a id="login" href="login.html" target="_blank">Login</a>
+            </div>
+        </header>
+
+        <!-- Content of webpage -->
+
+        <div class="content">
+            <div class="image-container">
+                <table>
+                    <tr>
+                        <th>
+                            <img id="Radisson"
+                                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                                height="500px" width="500px"><br>
+                        </th>
+
+                        <!-- User Will enter the Details here -->
+                        <td>
+                            <div class="form-container">
+                                <form style="margin: 35% 4% 1% 4%;" action="payment.html" method="get"
+                                    autocomplete="off">
+                                    <label>Adults:</label>
+                                    <input style= "width:80%;"type="number" name="Adults" value="" min="1" required><br><br><br>
+                                    <label>Name:</label>
+                                    <input  style= "width:80%;" type="text" name="name" value="" required><br><br><br>
+                                    <label>From Date:</label>
+                                    <input  style= "width:70%;" type="date" name="from date" value=""><br><br><br>
+                                    <label>To Date:</label>
+                                    <input  style= "width:75%;" type="date" name="to date" value=""><br><br><br>
+                                    <label>Total</label>
+                                    <input   style= "width:80%;" type="number" name="price" value="" disabled><br><br><br>
+                                    <button style="padding: 5px;">Book Now</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="hotel-desp">
+                <h2>Radisson Blu Hotel</h2>
+                <span>Rating </span> <br><br>
+                <span> 5 Star* </span><br><br>
+                <span>AMENITIES</span><br><br>
+                <ul>
+                    <li>Room Service</li>
+                    <li>Restaurant</li>
+                    <li>Buisness Center</li>
+                    <li>Fitness Center</li>
+                    <li>Pool</li>
+                </ul>
+                <h5>DESCRIPTION</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rerum provident ea, animi voluptati
+                    bus optio hic, unde at aperiam molestiae modi vitae libero omnis cum odio voluptates ex
+                    aspernatur inventore</p>
+            </div>
+
+
+
+            <!-- Footer of the webapge -->
+            <footer>
+                <a id="contact-us" href="contact.html" target="_blank">Contact Us</a><br>
+                <div id="logogrp">
+
+                    <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png"
+                            height="20px" width="22px"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png"
+                            height="20px" width="22px"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="assests/images/twitter.png"
+                            height="20px" width="22px"></a><br>
+                </div>
+                <span id="copy">© 2022 ROOM SEARCH PVT. LTD.</span>
+            </footer>
+        </div>
+</body>
+
+</html>
